@@ -1,10 +1,10 @@
 <project default ="compile">
     <target name="compile">
         <mkdir dir ="./target/classes"/>
-        <javac srcdir =".\test\product.java" destdir="./target/classes" debug="true" includeantruntime="false">
+        <javac srcdir =".\test" destdir="./target/classes" debug="true" includeantruntime="false">
         </javac>
-        <javac strdir=".\test\ShoppingCart.java" destdir="./target/classes" debug="true" includeantruntime="false">
-        </javac>
+        <!--<javac strdir=".\test\ShoppingCart.java" destdir="./target/classes" debug="true" includeantruntime="false">
+        </javac>-->
 
     </target>
     
